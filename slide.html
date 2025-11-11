@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Téléchargement PDF</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #f3f4f6, #e0e7ff);
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        a button {
+            background-color: #4f46e5;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        a button:hover {
+            background-color: #4338ca;
+            transform: scale(1.05);
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            a button {
+                width: 80%;
+                font-size: 1rem;
+                padding: 12px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.2rem;
+            }
+
+            a button {
+                width: 100%;
+                font-size: 0.9rem;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>✨ EXPOSE BIO ETHIQUE<br>(👇cliquer pour télécharger les fichiers👇)</h1>
+    <a href="expanim.pptx">
+        <button>Télécharger</button>
+    </a>
+</body>
+</html>
